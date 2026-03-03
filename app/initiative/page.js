@@ -47,14 +47,6 @@ export default function Initiative() {
 
       {/* Images */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
-        <div className="relative h-[200px] overflow-hidden rounded-xl">
-          <Image
-            src="/initiative/initiative-1.jpg"
-            alt="Youth-led dialogue and collaboration"
-            fill
-            className="object-cover"
-          />
-        </div>
 
         <div className="relative h-[200px] overflow-hidden rounded-xl">
           <Image

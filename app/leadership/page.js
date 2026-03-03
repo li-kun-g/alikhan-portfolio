@@ -6,7 +6,7 @@ export default function Leadership() {
       <h1 className="text-3xl font-bold">Leadership & Volunteering</h1>
 
       {/* TEDxKIMEP */}
-      <div className="border p-6 space-y-4">
+      <div className="border rounded-2xl p-6 space-y-4 shadow-sm">
         <h2 className="text-xl font-semibold">
           Head of Department of Production — TEDxKIMEP
         </h2>
@@ -47,24 +47,6 @@ export default function Leadership() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
           <div className="relative h-[250px] overflow-hidden rounded-lg">
             <Image
-              src="/tedx/tedx-1.jpg"
-              alt="TEDxKIMEP production role"
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div className="relative h-[250px] overflow-hidden rounded-lg">
-            <Image
-              src="/tedx/tedx-4.jpg"
-              alt="TEDxKIMEP event moment"
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div className="relative h-[250px] overflow-hidden rounded-lg">
-            <Image
               src="/tedx/tedx-3.jpg"
               alt="TEDxKIMEP team on stage"
               fill
@@ -75,7 +57,7 @@ export default function Leadership() {
       </div> {/* ✅ THIS WAS MISSING */}
 
       {/* MUN */}
-<div className="border p-6 space-y-4">
+<div className="border rounded-2xl p-6 space-y-4 shadow-sm">
   <h2 className="text-xl font-semibold">
     Head of Department of Public Information — Model UN Conference
   </h2>
@@ -134,7 +116,7 @@ export default function Leadership() {
 </div>
 
 {/* OSCE */}
-<div className="border p-6 space-y-4">
+<div className="border rounded-2xl p-6 space-y-4 shadow-sm">
   <h2 className="text-xl font-semibold">
     Participant & National Representative — OSCE Central Asia Youth Dialogue Forum
   </h2>
@@ -207,155 +189,6 @@ export default function Leadership() {
     </div>
   </div>
 </div>
-
-{/* Qamqor Charity */}
-<div className="border p-6 rounded-lg bg-gray-50">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-
-    {/* Text */}
-    <div className="space-y-4">
-      <h2 className="text-xl font-semibold">
-        Volunteer — Qamqor Charity (Almaty)
-      </h2>
-
-      <p className="text-sm text-gray-700">
-  I volunteered with Qamqor Charity, a Kazakhstan-based civil society organization
-  focused on community support and social solidarity, contributing to community-based
-  initiatives in Almaty and other cities across Kazakhstan.
-</p>
-
-<p className="text-sm text-gray-700">
-  I also initiated the establishment of a Qamqor Charity student branch at my
-  university, helping to mobilize students, coordinate volunteer teams, and expand
-  youth participation in civic engagement activities.
-</p>
-
-<p className="text-sm text-gray-700">
-  As part of a social awareness challenge, I participated in creating short-form
-  digital content to increase public visibility of charitable initiatives and
-  encourage civic participation among young people.
-</p>
-
-<p className="text-sm text-gray-700">
-  In parallel, I volunteered with other youth-led organizations, including the Adal
-  Volunteer Club, gaining experience across different regions of Kazakhstan and
-  contributing to broader Central Asian civic initiatives.
-</p>
-
-    </div>
-
-{/* Video */}
-<div className="w-full flex justify-center">
-  <video
-    src="/videos/qamqor-volunteering.MOV"
-    controls
-    className="w-[260px] rounded-2xl shadow-lg"
-  />
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-{/* Student Government */}
-<div className="border rounded-2xl p-8 mt-12">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-
-    {/* Photo */}
-    <div className="flex justify-center">
-      <Image
-        src="/leadership/student-government.jpg"
-        alt="President of Student Government at KIMEP University"
-        width={420}
-        height={420}
-        className="rounded-2xl shadow-lg object-cover"
-      />
-    </div>
-
-    {/* Text */}
-    <div className="space-y-4">
-      <h3 className="text-xl font-semibold">
-        President — Student Government, KIMEP University (2024)
-      </h3>
-
-      <p className="text-sm text-gray-700">
-        In 2024, I served as President of the Student Government at KIMEP University,
-        representing student interests, coordinating initiatives across departments,
-        and engaging with university administration to improve student life and
-        institutional transparency.
-      </p>
-
-      <p className="text-sm text-gray-700">
-        My role involved leadership over diverse student bodies, strategic planning,
-        policy-oriented discussions, and organizing student-led initiatives aimed at
-        academic quality, student welfare, and civic engagement.
-      </p>
-
-      <p className="text-sm text-gray-700">
-        This experience built upon my earlier leadership background as President of
-        the School Government during high school, where I developed foundational
-        skills in representation, negotiation, and collective decision-making.
-        Together, these roles shaped my long-term commitment to public leadership
-        and participatory governance.
-      </p>
-    </div>
-
-  </div>
-</div>
-
-{/* Volunteer Teaching */}
-<div className="border p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-  {/* Text */}
-  <div className="space-y-3">
-    <h2 className="text-xl font-semibold">
-      Volunteer Educator — Academic Support for School Students
-    </h2>
-
-    <p className="text-sm text-gray-700">
-      Alongside my leadership roles, I have over four years of volunteering
-      experience as an academic tutor for school students, providing educational
-      support in English, Mathematics, and Geography.
-    </p>
-
-    <p className="text-sm text-gray-700">
-      I worked with students of different age groups, helping them strengthen
-      foundational knowledge and prepare for key examinations, including IELTS
-      and the Unified National Test (UNT) required for university admission in
-      Kazakhstan.
-    </p>
-
-    <p className="text-sm text-gray-700">
-      This experience strengthened my ability to communicate complex concepts
-      clearly, adapt teaching approaches to individual needs, and mentor students
-      in a supportive and goal-oriented learning environment.
-    </p>
-  </div>
-
-  {/* Images */}
-  <div className="flex justify-center">
-    <div className="space-y-4">
-      <div className="relative w-[260px] h-[160px] overflow-hidden rounded-xl">
-        <img
-          src="/leadership/teaching-1.jpg"
-          alt="Volunteering as a tutor for school students"
-          className="object-cover w-full h-full"
-        />
-      </div>
-
-      <div className="relative w-[260px] h-[160px] overflow-hidden rounded-xl">
-        <img
-          src="/leadership/teaching-2.jpg"
-          alt="Exam preparation and mentoring session"
-          className="object-cover w-full h-full"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
 
